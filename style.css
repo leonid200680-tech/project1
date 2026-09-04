@@ -1,7 +1,7 @@
 body {
     margin: 0;
     min-height: 100vh;
-    background: #1a472a;
+    background: linear-gradient(135deg, #1a472a 0%, #2d6b3f 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,9 +10,11 @@ body {
 
 .game {
     text-align: center;
-    background: #0d2b1a;
+    background: rgba(13, 43, 26, 0.9);
     padding: 20px;
     border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5);
 }
 
 canvas {
@@ -20,6 +22,7 @@ canvas {
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
     cursor: pointer;
     display: block;
+    background: #0a1f12;
 }
 
 .info {
@@ -35,4 +38,6 @@ canvas {
     background: rgba(0,0,0,0.5);
     padding: 5px 12px;
     border-radius: 20px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
 }
