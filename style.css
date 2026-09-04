@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: #1a472a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.game {
+    text-align: center;
+    background: #0d2b1a;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+canvas {
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    cursor: pointer;
+    display: block;
+}
+
+.info {
+    margin-top: 15px;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.info span {
+    background: rgba(0,0,0,0.5);
+    padding: 5px 12px;
+    border-radius: 20px;
+}
