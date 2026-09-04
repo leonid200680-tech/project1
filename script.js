@@ -34,6 +34,11 @@ function drawField() {
     
     ctx.strokeRect(30, H/2 - 50, 60, 100);
     ctx.strokeRect(W - 90, H/2 - 50, 60, 100);
+    
+    // НОВОЕ: отображение скорости
+    ctx.fillStyle = 'white';
+    ctx.font = '16px Arial';
+    ctx.fillText(`Скорость: ${speedMult.toFixed(1)}x`, 10, 30);
 }
 
 function drawBall() {
